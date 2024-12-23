@@ -1,14 +1,15 @@
 // Expert Advisor for MT4
 
+
 #property copyright "EA Trading Academy"
 #property version   "6.1"
 #property strict
 
 static input string _Properties_ = "------"; // --- Expert Properties ---
 static input int    Magic_Number = 1508521176; // Magic number
-static input double Entry_Amount =     0.01; // Entry lots
-       input int    Stop_Loss    =       74; // Stop Loss   (pips)
-       input int    Take_Profit  =       78; // Take Profit (pips)
+static input double Entry_Amount =     0.1; // Entry lots
+       input int    Stop_Loss    =       50; // Stop Loss   (pips)
+       input int    Take_Profit  =       80; // Take Profit (pips)
 
 static input string ___0______   = "------"; // --- Candle Color ---
        input int    Ind0Param0   =        8; // Min body height [pips]
