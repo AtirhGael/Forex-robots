@@ -1,5 +1,7 @@
 // Expert Advisor for MT4
-
+//
+// Created by: EA Trading Academy
+// Website   : https://eatradingacademy.com
 #property copyright "EA Trading Academy"
 #property version   "6.1"
 #property strict
