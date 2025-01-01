@@ -1,15 +1,4 @@
 // Expert Advisor for MT4
-//
-// Created by: EA Trading Academy
-// Website   : https://eatradingacademy.com
-//
-// Risk Disclosure
-//
-// Futures and forex trading contains substantial risk and is not for every investor.
-// An investor could potentially lose all or more than the initial investment.
-// Risk capital is money that can be lost without jeopardizing ones’ financial security or life style.
-// Only risk capital should be used for trading and only those with sufficient risk capital should consider trading.
-
 #property copyright "EA Trading Academy"
 #property version   "6.1"
 #property strict
@@ -32,7 +21,8 @@ static input string ___1______   = "------"; // --- Bulls Power ---
 
 static input string ___2______   = "------"; // --- Envelopes ---
        input int    Ind2Param0   =       32; // Period
-       input double Ind2Param1   =     0.64; // Deviation %
+       input double Ind2Param1   =     0.64; // Deviation %
+
 
 static input string Entry_prot__ = "------"; // --- Entry Protections ---
 static input int    Max_Spread   =        0; // Max spread (points)
